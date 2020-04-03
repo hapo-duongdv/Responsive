@@ -144,13 +144,17 @@
     }
   }
 
+  .txt-footer-mb {
+    display: none;
+  }
+
   .footer {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
     height: 400px;
   }
@@ -160,7 +164,7 @@
   }
 
   .menu-header {
-    min-width: 400px;
+    min-width: 300px;
 
     .img-icon {
       width: 22pt;
@@ -304,8 +308,8 @@
 
     .customers {
       img {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
       }
     }
   }
@@ -329,6 +333,7 @@
       font-size: 11pt;
       width: 100%;
       padding: 0;
+      margin-top: -20px;
     }
       
     i {
@@ -339,6 +344,7 @@
         margin-bottom: 0;
         padding-left: 0;
         float: right;
+        margin-top: -40px;
       }
     }
   }
@@ -346,6 +352,7 @@
   .footer {
     padding-left: 10px;
     padding-right: 10px;
+    height: 250px;
   }
   
   .txt-footer-pc{
