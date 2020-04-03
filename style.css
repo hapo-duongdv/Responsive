@@ -1,12 +1,8 @@
-/* file scss */
 body {
   width: 100%;
   font-family: 'Roboto';
   overflow-x: hidden;
   margin: auto; }
-
-.flex {
-  display: flex; }
 
 .header {
   background-image: url(./images/banner@2x.png);
@@ -249,7 +245,6 @@ body {
     color: #d0d8dc;
     font-size: 8pt; }
   .footer .footer-list-icon {
-    margin-top: auto;
     min-width: 120px;
     padding: 0; }
     .footer .footer-list-icon i {

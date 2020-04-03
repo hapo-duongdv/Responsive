@@ -1,17 +1,10 @@
-/* file scss */ 
-$color-black-text : #283238;
-$color-white-text : #d0d8dc;
-$color-green : #8bc34a;
+@import "variable.scss";
 
 body {
   width: 100%;
   font-family: 'Roboto';
   overflow-x: hidden;
   margin: auto;
-}
-
-.flex {
-  display: flex;
 }
 
 .header {
@@ -362,7 +355,6 @@ body {
   }
 
   .footer-list-icon {
-    margin-top: auto;
     min-width: 120px;
     padding: 0;
 
@@ -372,4 +364,4 @@ body {
   }
 }
 
-@import "./responsive.scss"
+@import "responsive.scss";
