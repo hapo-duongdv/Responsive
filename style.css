@@ -325,7 +325,8 @@ body {
     height: 50px; }
 
   .list-title {
-    padding: 0; }
+    padding-left: 10px;
+    padding-right: 10px; }
     .list-title .txt {
       width: 70px; }
 
@@ -355,8 +356,8 @@ body {
       font-size: 30pt; }
 
   .list-customer {
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 15px;
+    padding-right: 15px; }
     .list-customer .customers img {
       width: 80px;
       height: 80px; }
@@ -490,8 +491,8 @@ body {
     height: 500px; }
 
   .list-customer {
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 15px;
+    padding-right: 15px; }
     .list-customer .customers img {
       width: 70px;
       height: 70px; }
@@ -505,8 +506,8 @@ body {
 
   .description-customer {
     margin-top: -20px;
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 15px;
+    padding-right: 15px; }
     .description-customer p {
       font-size: 11pt;
       width: 100%;
@@ -523,11 +524,20 @@ body {
 
   .footer {
     padding-left: 10px;
-    padding-right: 10px;
-    height: 250px; }
+    padding-right: 10px; }
     .footer .footer-list-icon {
       padding-top: 0;
       margin-top: 0; }
+    .footer p {
+      color: #d0d8dc;
+      font-size: 4pt; }
+      .footer p:nth-child(1) {
+        text-transform: uppercase;
+        color: #8bc34a;
+        font-weight: 400;
+        font-size: 5pt; }
+    .footer span {
+      font-size: 5pt; }
 
   .txt-footer-pc {
     display: none; } }
