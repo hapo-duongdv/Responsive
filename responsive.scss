@@ -13,16 +13,17 @@
       width: 90px;
       height: 40px;
       font-size: 12px;
+      background-color: transparent;
     }
   }
   
 
   .paragraph {
     padding: 0;
-    height: 450px;
+    height: 500px;
 
     .img-paragraph {
-      height: 50%;
+      height: auto;
     }
   }
   
@@ -42,8 +43,12 @@
     font-style: italic;
     color: $color-black-text;
     letter-spacing: 0.03px;
-    font-size: 9pt;
+    font-size: 12pt;
     width: 100%;
+  }
+
+  .text .txt-sec-para {
+    font-size: 12pt;
   }
   
   .title-tb {
@@ -88,16 +93,18 @@
 
   .list-title {
     padding: 0;
-    .parts.part {
-      width: 100px;
-
-      div {
-        padding-top: 0;
-      }
-    }
 
     .txt {
       width: 70px;
+    }
+  }
+
+  .part {
+    width: 100px;
+    height: 200px;
+
+    div {
+      padding-top: 0;
     }
   }
 
@@ -119,6 +126,17 @@
     }
   }
 
+  .txt-line p {
+    font-size: 12pt;
+  }
+
+  .our-customer {
+    height: 420px;
+
+    p:first-child {
+      font-size: 30pt;
+    }
+  }
   .list-customer {
     padding-left: 10px;
     padding-right: 10px;
@@ -128,11 +146,15 @@
         width: 80px;
         height: 80px;
       }
+
+      p {
+        padding-top: 15px;
+      }
     }
   }
   
   .description-customer {
-    margin-top: -40px;
+    margin-top: -30px;
 
     p {
       font-size: 12pt;
@@ -144,13 +166,26 @@
     }
   }
 
+  .pagination {
+    width: 80px;
+
+    div {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
   .txt-footer-mb {
     display: none;
   }
 
+  .footer-col {
+    padding: 0;
+  }
+
   .footer {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -165,6 +200,7 @@
 
   .menu-header {
     min-width: 300px;
+    padding-top: 60px;
 
     .img-icon {
       width: 22pt;
@@ -353,13 +389,14 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 250px;
+
+    .footer-list-icon {
+      padding-top: 0;
+      margin-top: 0;
+    }
   }
   
   .txt-footer-pc{
     display: none;
-  }
-
-  .footer-list-icon {
-    padding-top: 0;
   }
 }
