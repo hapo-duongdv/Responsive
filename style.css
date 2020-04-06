@@ -293,11 +293,11 @@ body {
     font-style: italic;
     color: #283238;
     letter-spacing: 0.03px;
-    font-size: 12pt;
+    font-size: 13px;
     width: 100%; }
 
   .text .txt-sec-para {
-    font-size: 12pt; }
+    font-size: 13px; }
 
   .title-tb i {
     font-size: 30px;
@@ -352,7 +352,7 @@ body {
       height: 44px; }
 
   .txt-line p {
-    font-size: 12pt; }
+    font-size: 13px; }
 
   .our-customer {
     height: 420px; }

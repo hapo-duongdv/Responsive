@@ -9,7 +9,7 @@ Error: Undefined variable: "$color-black-text".
 51:     font-style: italic;
 52:     color: $color-black-text;
 53:     letter-spacing: 0.03px;
-54:     font-size: 12pt;
+54:     font-size: 13px;
 55:     width: 100%;
 56:   }
 57: 
@@ -75,4 +75,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-black-text\".\A         on line 52 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss\A \A 47:     display: none;\A 48:   }\A 49:   \A 50:   .txt-first-para-tb {\A 51:     font-style: italic;\A 52:     color: $color-black-text;\A 53:     letter-spacing: 0.03px;\A 54:     font-size: 12pt;\A 55:     width: 100%;\A 56:   }\A 57: "; }
+  content: "Error: Undefined variable: \"$color-black-text\".\A         on line 52 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss\A \A 47:     display: none;\A 48:   }\A 49:   \A 50:   .txt-first-para-tb {\A 51:     font-style: italic;\A 52:     color: $color-black-text;\A 53:     letter-spacing: 0.03px;\A 54:     font-size: 13px;\A 55:     width: 100%;\A 56:   }\A 57: "; }
