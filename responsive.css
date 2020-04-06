@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color-black-text".
-        on line 44 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss
+        on line 52 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss
 
-39:     display: none;
-40:   }
-41:   
-42:   .txt-first-para-tb {
-43:     font-style: italic;
-44:     color: $color-black-text;
-45:     letter-spacing: 0.03px;
-46:     font-size: 12pt;
-47:     width: 100%;
+47:     display: none;
 48:   }
-49: 
+49:   
+50:   .txt-first-para-tb {
+51:     font-style: italic;
+52:     color: $color-black-text;
+53:     letter-spacing: 0.03px;
+54:     font-size: 12pt;
+55:     width: 100%;
+56:   }
+57: 
 
 Backtrace:
-C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss:44
+C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss:52
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -75,4 +75,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-black-text\".\A         on line 44 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss\A \A 39:     display: none;\A 40:   }\A 41:   \A 42:   .txt-first-para-tb {\A 43:     font-style: italic;\A 44:     color: $color-black-text;\A 45:     letter-spacing: 0.03px;\A 46:     font-size: 12pt;\A 47:     width: 100%;\A 48:   }\A 49: "; }
+  content: "Error: Undefined variable: \"$color-black-text\".\A         on line 52 of C:\Users\Administrator\Desktop\Bootrap & responsive\responsive.scss\A \A 47:     display: none;\A 48:   }\A 49:   \A 50:   .txt-first-para-tb {\A 51:     font-style: italic;\A 52:     color: $color-black-text;\A 53:     letter-spacing: 0.03px;\A 54:     font-size: 12pt;\A 55:     width: 100%;\A 56:   }\A 57: "; }
