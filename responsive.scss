@@ -92,7 +92,8 @@
   }
 
   .list-title {
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 
     .txt {
       width: 70px;
@@ -138,8 +139,8 @@
     }
   }
   .list-customer {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     .customers {
       img {
@@ -339,8 +340,8 @@
   }
 
   .list-customer {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     .customers {
       img {
@@ -362,8 +363,8 @@
 
   .description-customer {
     margin-top: -20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     p {
       font-size: 11pt;
@@ -388,11 +389,26 @@
   .footer {
     padding-left: 10px;
     padding-right: 10px;
-    height: 250px;
 
     .footer-list-icon {
       padding-top: 0;
       margin-top: 0;
+    }
+
+    p {
+      color: $color-white-text;
+      font-size: 4pt;
+  
+      &:nth-child(1) {
+        text-transform: uppercase;
+        color: $color-green;
+        font-weight: 400;
+        font-size: 5pt;
+      }
+    }
+
+    span {
+      font-size: 5pt;
     }
   }
   
