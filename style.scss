@@ -177,17 +177,21 @@ body {
   height: 250px;
   padding-left: 20%;
   padding-right: 20%;
-  display: grid;
+  display: grid;  
+}
 
-  .part {
-    width: 120px;
+.part {
+  width: 120px;
 
-    div {
-      text-transform: uppercase;
-      color: #ffffff;
-      letter-spacing: 1.33px;
-      font-size: 16px;
-    }
+  div {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1.33px;
+    font-size: 16px;
+  }
+
+  .txt {
+    width: 70px;
   }
 }
 
@@ -266,6 +270,7 @@ body {
       font-size: 12px;
       letter-spacing: 0.03px;
       width: 60px;
+      padding-top: 10px;
     }
   
     img {
@@ -297,6 +302,7 @@ body {
 
 .description-customer {
   margin-bottom: 20px;
+  margin-top: -25px;
 
   p {
     font-weight: 300;
@@ -324,10 +330,13 @@ body {
   }
 }
 
+.txt-footer-pc {
+  margin-top: 42px;
+}
+
 .footer {
   height: 200px;
   background-color: #39474E;
-  border: inset #ECEFF1;
   box-shadow: 0 15pt 35pt 0 rgba(0, 0, 0, 0.1);
   padding-left: 20%;
   padding-right: 20%;
@@ -356,6 +365,7 @@ body {
   .footer-list-icon {
     min-width: 120px;
     padding: 0;
+    margin-top: 60px;
 
     i {
       color: $color-green;

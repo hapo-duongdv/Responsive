@@ -119,13 +119,16 @@ body {
   padding-left: 20%;
   padding-right: 20%;
   display: grid; }
-  .list-title .part {
-    width: 120px; }
-    .list-title .part div {
-      text-transform: uppercase;
-      color: #ffffff;
-      letter-spacing: 1.33px;
-      font-size: 16px; }
+
+.part {
+  width: 120px; }
+  .part div {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1.33px;
+    font-size: 16px; }
+  .part .txt {
+    width: 70px; }
 
 .img-list-title {
   width: 80px;
@@ -183,7 +186,8 @@ body {
     font-weight: 300;
     font-size: 12px;
     letter-spacing: 0.03px;
-    width: 60px; }
+    width: 60px;
+    padding-top: 10px; }
   .list-customer .customers img {
     width: 50px;
     height: 50px;
@@ -204,7 +208,8 @@ body {
       background-color: #ffffff; }
 
 .description-customer {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: -25px; }
   .description-customer p {
     font-weight: 300;
     line-height: 25px;
@@ -223,10 +228,12 @@ body {
       padding-top: 90px;
       padding-left: 15px; }
 
+.txt-footer-pc {
+  margin-top: 42px; }
+
 .footer {
   height: 200px;
   background-color: #39474E;
-  border: inset #ECEFF1;
   box-shadow: 0 15pt 35pt 0 rgba(0, 0, 0, 0.1);
   padding-left: 20%;
   padding-right: 20%; }
@@ -245,7 +252,8 @@ body {
     font-size: 8pt; }
   .footer .footer-list-icon {
     min-width: 120px;
-    padding: 0; }
+    padding: 0;
+    margin-top: 60px; }
     .footer .footer-list-icon i {
       color: #8bc34a; }
 
@@ -259,13 +267,14 @@ body {
   .navbar .btn-sign-in {
     width: 90px;
     height: 40px;
-    font-size: 12px; }
+    font-size: 12px;
+    background-color: transparent; }
 
   .paragraph {
     padding: 0;
-    height: 450px; }
+    height: 500px; }
     .paragraph .img-paragraph {
-      height: 50%; }
+      height: auto; }
 
   .title {
     display: none; }
@@ -280,8 +289,11 @@ body {
     font-style: italic;
     color: #283238;
     letter-spacing: 0.03px;
-    font-size: 9pt;
+    font-size: 12pt;
     width: 100%; }
+
+  .text .txt-sec-para {
+    font-size: 12pt; }
 
   .title-tb i {
     font-size: 30px;
@@ -314,12 +326,14 @@ body {
 
   .list-title {
     padding: 0; }
-    .list-title .parts.part {
-      width: 100px; }
-      .list-title .parts.part div {
-        padding-top: 0; }
     .list-title .txt {
       width: 70px; }
+
+  .part {
+    width: 100px;
+    height: 200px; }
+    .part div {
+      padding-top: 0; }
 
   .img-list-title {
     width: 100px; }
@@ -332,27 +346,46 @@ body {
       width: 44px;
       height: 44px; }
 
+  .txt-line p {
+    font-size: 12pt; }
+
+  .our-customer {
+    height: 420px; }
+    .our-customer p:first-child {
+      font-size: 30pt; }
+
   .list-customer {
     padding-left: 10px;
     padding-right: 10px; }
     .list-customer .customers img {
       width: 80px;
       height: 80px; }
+    .list-customer .customers p {
+      padding-top: 15px; }
 
   .description-customer {
-    margin-top: -40px; }
+    margin-top: -30px; }
     .description-customer p {
       font-size: 12pt;
       width: 600px; }
     .description-customer i {
       font-size: 60px; }
 
+  .pagination {
+    width: 80px; }
+    .pagination div {
+      width: 10px;
+      height: 10px; }
+
   .txt-footer-mb {
     display: none; }
 
+  .footer-col {
+    padding: 0; }
+
   .footer {
-    padding-left: 10px;
-    padding-right: 10px; } }
+    padding-left: 15px;
+    padding-right: 15px; } }
 @media screen and (max-width: 767px) {
   .header {
     height: 400px; }
@@ -361,7 +394,8 @@ body {
     margin-top: 20px; }
 
   .menu-header {
-    min-width: 300px; }
+    min-width: 300px;
+    padding-top: 60px; }
     .menu-header .img-icon {
       width: 22pt;
       height: 22pt; }
@@ -491,9 +525,9 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     height: 250px; }
+    .footer .footer-list-icon {
+      padding-top: 0;
+      margin-top: 0; }
 
   .txt-footer-pc {
-    display: none; }
-
-  .footer-list-icon {
-    padding-top: 0; } }
+    display: none; } }
