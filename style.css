@@ -539,5 +539,8 @@ body {
     .footer span {
       font-size: 5pt; }
 
+  .img-footer {
+    padding-bottom: 5px; }
+
   .txt-footer-pc {
     display: none; } }
